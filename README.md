@@ -89,12 +89,4 @@ loader (any DataFrame with `ds` = date and `y` = units sold works with
 BeautifulSoup scraper — point it at a product listing page and update the
 CSS selectors in `SELECTORS` to match that site's HTML.
 
-## Extending it (matches the report's "Future Scope" chapter)
 
-- Swap the in-memory catalog for a real database (Postgres/SQLite).
-- Add ARIMA / XGBoost as alternate forecasting backends (report section
-  4.5 compares all three) and let the user pick a model.
-- Add authentication + per-user session persistence for a multi-user
-  deployment.
-- Containerize with Docker and deploy to Render / Streamlit Community
-  Cloud, as outlined in report section 3.6.

@@ -3,7 +3,7 @@ Forecasting Engine (Prophet)
 ----------------------------
 Wraps Facebook Prophet to turn weekly demand history into a future
 demand forecast with confidence intervals, as described in the report
-(Section 3.3 / 6.2).
+.
 """
 
 import logging
